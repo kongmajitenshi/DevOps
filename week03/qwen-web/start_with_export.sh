@@ -1,3 +1,4 @@
 #!/bin/bash
 cd "$(dirname "$0")" || exit 1
-exec python3 chat.py
+export MODEL="qwen3:0.6b"
+exec ./start.sh
