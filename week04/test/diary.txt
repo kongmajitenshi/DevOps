@@ -1,0 +1,4 @@
+Mon - Learning Linus
+Tus - Learning Git, Git Hub
+Wed - Network
+Thu - Docker?
