@@ -19,3 +19,8 @@
 - 자동화: 디렉터리와 경로 이해. Find, grep, 파이프로 필요 정보 찾기. 변수 인자 조건 반복 활용해 셸스크립트 작성. 프로세스와 PID 확인, 백업 및 복원 자동화
 - 협업: .gitignore로 관리안할 결과물 제외. 브랜치 > 커밋/푸시 > PR > Merge. Conflict 발생 > 로컬에서 해결 > 커밋/푸시 > PR Merge
 - 자동화는 반복 가능한 작업을 만듦. 협업은 변경 사항을 안전하게 합치는 과정.
+
+- ip 주소: 네트워크 장치 식별 주소
+- 포트: 실행중 서비스 구분 번호
+- DNS: Domain Name Services
+- ip address(IP), ping(응답확인), dig(DNS), curl(HTTP), ss(LISTEN 포트, Mac lsof)
