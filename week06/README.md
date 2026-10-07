@@ -3,7 +3,7 @@
 # 6주차 정리
 
 - 내 이미지 주소: ghcr.io/kongmajitenshi/guestbook:v2
-- ![친구이미지](~/DevOps/week06/image1.png)
+- ![친구이미지](image1.png)
 - Dockerfile의 각 줄이 하는 일
     - FROM python:3.12-slim: 가져올 이미지 지정. 여기선 파이썬3.12 슬림버전
     - WORKDIR /app: 컨테이너 내부 어디에서 작업할건지 지정
