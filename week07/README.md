@@ -1,5 +1,6 @@
 # 7주차 수업 내용 정리
 - docker compose ps 결과
+
 | NAME | IMAGE | COMMAND | SERVICE | CREATED | STATUS | PORTS |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | guestbook-nginx-1 | nginx:alpine | `"/docker-entrypoint.…"` | nginx | 15 minutes ago | Up 6 minutes | `0.0.0.0:8080->80/tcp`, `[::]:8080->80/tcp` |
