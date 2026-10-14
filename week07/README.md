@@ -1,10 +1,11 @@
 # 7주차 수업 내용 정리
 - docker compose ps 결과
-NAME                IMAGE            COMMAND                   SERVICE   CREATED          STATUS                    PORTS
-guestbook-nginx-1   nginx:alpine     "/docker-entrypoint.…"   nginx     15 minutes ago   Up 6 minutes              0.0.0.0:8080->80/tcp, [::]:8080->80/tcp
-guestbook-redis-1   redis:7-alpine   "docker-entrypoint.s…"   redis     15 minutes ago   Up 15 minutes (healthy)   6379/tcp
-guestbook-web-1     guestbook-web    "python app.py"           web       15 minutes ago   Up 15 minutes (healthy)   5000/tcp
-guestbook-web-3     guestbook-web    "python app.py"           web       14 minutes ago   Up 14 minutes (healthy)   5000/tcp
+|NAME|                IMAGE|            COMMAND|                   SERVICE|   CREATED|          STATUS|                    PORTS|
+|        ---          |          ---   |                ---       |     ---   |        ---      |              ---        | --- |
+|guestbook-nginx-1   |nginx:alpine     |"/docker-entrypoint.…"   |nginx     |15 minutes ago   |Up 6 minutes              |0.0.0.0:8080->80/tcp, [::]:8080->80/tcp
+|guestbook-redis-1   |redis:7-alpine   |"docker-entrypoint.s…"   |redis     |15 minutes ago   |Up 15 minutes (healthy)   |6379/tcp
+|guestbook-web-1     |guestbook-web    |"python app.py"          |web       |15 minutes ago   |Up 15 minutes (healthy)   |5000/tcp
+|guestbook-web-3     |guestbook-web    |"python app.py"          |web       |14 minutes ago   |Up 14 minutes (healthy)   |5000/tcp
 
 - scale 후 웹컨테이너 호스트명 바뀐 결과
 ![스케일후사진](./scale1.png)
